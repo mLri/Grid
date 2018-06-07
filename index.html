@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout</title>
+    <style>
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            */
+            grid-gap: 1em;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste nihil molestiae maiores obcaecati repellendus quibusdam dignissimos placeat suscipit magni aut aliquid laudantium nostrum, assumenda in culpa corporis ipsum voluptatibus, recusandae, ad dolorum quam consequuntur. Quia commodi minima voluptates optio deleniti distinctio id maxime itaque amet enim nobis excepturi porro nisi aliquid facere, cupiditate voluptas temporibus, sunt vel! Tempore dolorum, minima commodi repellendus inventore praesentium molestiae, vel similique ut corrupti amet quo dolore facere. Inventore, nemo unde laborum minima veniam voluptas.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut repellendus voluptas aperiam esse nesciunt unde fugit maiores aliquam quo magni animi dolorum, dolorem voluptatem. Enim quasi commodi architecto praesentium?
+        </div>
+        <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste nihil molestiae maiores obcaecati repellendus quibusdam dignissimos placeat suscipit magni aut aliquid laudantium nostrum, assumenda in culpa corporis ipsum voluptatibus, recusandae, ad dolorum quam consequuntur. Quia commodi minima voluptates optio deleniti distinctio id maxime itaque amet enim nobis excepturi porro nisi aliquid facere, cupiditate voluptas temporibus, sunt vel! Tempore dolorum, minima commodi repellendus inventore praesentium molestiae, vel similique ut corrupti amet quo dolore facere. Inventore, nemo unde laborum minima veniam voluptas.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut repellendus voluptas aperiam esse nesciunt unde fugit maiores aliquam quo magni animi dolorum, dolorem voluptatem. Enim quasi commodi architecto praesentium?
+            </div>
+    </div>
+</body>
+</html>
